@@ -42,8 +42,12 @@ let example1 = [3, 2, 1, 13, 8, 5, 0, 1];
 let example2 = [105, 79, 100, 110];
 let example3 = [2, 543, 23, -3, 0, 1, -1, 103, -100];
 let example4 = [0.34, 0.99, 0.14, 0.36, 0.82, 0.41];
+let example5 = [-100000000, 10000000000, -100, 103, -1.423, 1.4534, 0.34, 0.99, 0.14, 0.36, 0.82, 0.41];
+let example6 = ["d", "b", "A", "c", "a", "D", "z", "B"];
 
 console.log(MergeSort(example1));
 console.log(MergeSort(example2));
 console.log(MergeSort(example3));
 console.log(MergeSort(example4));
+console.log(MergeSort(example5));
+console.log(MergeSort(example6));
